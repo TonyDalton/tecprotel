@@ -17,8 +17,10 @@
 		<![endif]-->
 	</head>
 	<body>
-		<h1 class="text-center">TECPROTEL S.A. de C.V.</h1>
-
+		<div class="container">
+			<img src="/Tec2.png" class="img-responsive" alt="Image">
+			<h1 class="text-center">TECPROTEL S.A. de C.V.</h1>
+		</div>
 		<!-- jQuery -->
 		<script src="//code.jquery.com/jquery.js"></script>
 		<!-- Bootstrap JavaScript -->
