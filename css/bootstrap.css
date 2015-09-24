@@ -939,8 +939,10 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  width: 100% \9;
+  width: 95%;
   max-width: 100%;
+  max-height: 400px; /*agregado para ajustar el tamaño de la imagen en el carrusel*/
+  min-height: 400px;
   height: auto;
 }
 .img-rounded {
@@ -6203,5 +6205,9 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+.img-gnd{
+  width: 900px;
+  height: 250px;
 }
 /*# sourceMappingURL=bootstrap.css.map */
